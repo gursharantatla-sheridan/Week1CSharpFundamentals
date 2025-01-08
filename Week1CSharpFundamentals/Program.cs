@@ -84,6 +84,12 @@
 
             double num = 365734354.23456;
             Console.WriteLine("Num = " + num.ToString("F3"));
+
+
+            int? r = null;
+
+
+            i = (int)d;
         }
     }
 
