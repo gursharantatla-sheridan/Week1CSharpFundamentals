@@ -32,6 +32,36 @@
 
             // string interpolation
             Console.WriteLine($"I have {cars} cars, {trucks} trucks and {bikes} bikes");
+
+            Console.WriteLine("\n\n");
+
+
+            string[] colors = { "Red", "Yellow", "Blue", "Green" };
+
+            foreach (var c in colors)
+                Console.WriteLine($"{c, 10}");
+
+            Console.WriteLine("\n\n");
+
+
+
+            Cirle c1 = new Cirle();
+            Console.WriteLine(c1.radius);
+            c1.radius = 50;
+
+            Cirle c2 = new Cirle();
+
+            Console.WriteLine(c1.radius);
+            Console.WriteLine(c2.radius);
+
+            c2.radius = 100;
+            Console.WriteLine(c1.radius);
+            Console.WriteLine(c2.radius);
         }
+    }
+
+    class Cirle
+    {
+        public double radius;
     }
 }
