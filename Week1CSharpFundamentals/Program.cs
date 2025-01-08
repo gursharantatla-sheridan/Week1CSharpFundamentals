@@ -18,6 +18,20 @@
             float f = 5.5F;
             decimal m = 5.5M;
             long l = 43543324L;
+
+
+            var x = "5.5";
+
+            Console.WriteLine(@"Hello\nWorld");
+
+
+            int cars = 5, trucks = 4, bikes = 8;
+
+            // string concatenation
+            Console.WriteLine("I have " + cars + " cars, " + trucks + " trucks and " + bikes + " bikes");
+
+            // string interpolation
+            Console.WriteLine($"I have {cars} cars, {trucks} trucks and {bikes} bikes");
         }
     }
 }
