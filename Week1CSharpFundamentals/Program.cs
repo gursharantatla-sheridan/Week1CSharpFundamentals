@@ -57,6 +57,33 @@
             c2.radius = 100;
             Console.WriteLine(c1.radius);
             Console.WriteLine(c2.radius);
+
+            Console.WriteLine("\n\n");
+
+
+
+            string s1 = "hello";
+            string s2 = s1;
+
+            Console.WriteLine(s1);
+            Console.WriteLine(s2);
+
+            s1 = "bye";
+
+            Console.WriteLine(s1);
+            Console.WriteLine(s2);
+
+            Console.WriteLine("\n\n");
+
+
+            double amount = 324532.34;
+            Console.WriteLine("Amount = " + amount.ToString("C"));
+
+            double rate = 0.10;
+            Console.WriteLine("Rate = " + rate.ToString("P0"));
+
+            double num = 365734354.23456;
+            Console.WriteLine("Num = " + num.ToString("F3"));
         }
     }
 
